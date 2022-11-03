@@ -17,14 +17,17 @@
         <h3 align=center>Welcome back! Please enter your details.</h3>
         <br>
       <!--create a form-->
-      <form class="login_form" action="index.html" method="post">
+      <form class="login_form" action="login.php" method="post">
+        <?php if (isset($_GET['error'])) {?>
+          <p class="error"><?php echo ($_GET['error']); ?></p>
+        <?php } ?>
       <!--labels for user name and password-->
       <div class="un_div">
-        <label><p>User Name</p></label>
+        <label>User Name</label>
         <input type="text" name="username" placeholder="User Name">
       </div>
       <div class="pass_div">
-        <label><p>Password</p></label>
+        <label>Password</label>
         <input type="password" name="password" placeholder="Password">
       </div>
       <br>
