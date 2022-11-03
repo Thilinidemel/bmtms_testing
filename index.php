@@ -4,33 +4,40 @@
     <!--give page title-->
     <title>LOGIN</title>
     <!--attach css file-->
-    <link rel="stylesheet" href="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <!--main frame-->
   <div class="main">
     <!--left side of main frame-->
     <div class="left_side">
-      <!--title-->
-      <h1 align=center>WELCOME BACK</h1>
-      <!--subtitle-->
-      <h4 align=center>Welcome back! Please enter your details.</h4>
+        <!--title-->
+        <h1 align=center>WELCOME BACK</h1>
+        <!--subtitle-->
+        <h3 align=center>Welcome back! Please enter your details.</h3>
+        <br>
       <!--create a form-->
       <form class="login_form" action="index.html" method="post">
       <!--labels for user name and password-->
       <div class="un_div">
-        <label>User Name</label>
+        <label><p>User Name</p></label>
         <input type="text" name="username" placeholder="User Name">
       </div>
       <div class="pass_div">
-        <label>Password</label>
+        <label><p>Password</p></label>
         <input type="password" name="password" placeholder="Password">
       </div>
+      <br>
+      <div class="options">
       <!--remember me checkbox-->
       <!--forgot password link-->
+      </div>
       <!--sign in button-->
-      <button type="submit" name="signin">Sign in</button>
+      <button class="button1" type="submit" name="signin">Sign in</button>
       <!--create account link-->
+      <div class="account">
+        <h5>Don't have an account? <a href="" class="link">create account</a></h5>
+      </div>
       </form>
       <!--signature-->
     </div>
