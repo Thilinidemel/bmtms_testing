@@ -3,27 +3,29 @@
 body {
   justify-content: center;
   align-items: center;
+
 }
 
 /*for index php*/
 .main{
+  margin-left:200px;
+  margin-top: 10px;
+  float: left;
   display:flex;
-  background-color: #CCE5FF;
+  background-color: #D2B48C;
   width: auto;
-  height: 775px;
+  height: auto;
 }
 
 .left_side{
-  float: left;
   height: auto;
-  width: 1000px;
+  width: 800px;
   margin: auto;
 }
 
 .right_side{
-  float: right;
   height: auto;
-  width: 600px;
+  width: 500px;
   margin: auto;
 }
 
@@ -33,16 +35,13 @@ form{
   border: 2px solid #ccc;
   margin: auto;
   padding: 30px;
-  background: #87CEFA;
+  background: #FFEFD5;
   border-radius: 15px;
 }
 
 label{
   float: left;
   padding: 10px;
-}
-
-label p{
   color: #191970;
   font-size:20px;
 }
@@ -76,4 +75,13 @@ input{
 .link{
   text-decoration:none;
   color: blue;
+}
+
+.error{
+  background: #f2dede;
+  color: #a94442;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
 }
