@@ -4,3 +4,9 @@ body {
 }
 
 /*for index php*/
+.left_side{
+  background-color: #ff0000;
+  height: 800px;
+  width: 1000px;
+  border: 1px solid #000000;
+}

@@ -10,7 +10,7 @@
   <!--main frame-->
   <div class="main">
     <!--left side of main frame-->
-    <div class="left side">
+    <div class="left_side">
       <!--title-->
       <h1 align=center>WELCOME BACK</h1>
       <!--subtitle-->
@@ -29,12 +29,13 @@
       <!--remember me checkbox-->
       <!--forgot password link-->
       <!--sign in button-->
+      <button type="submit" name="signin">Sign in</button>
       <!--create account link-->
       </form>
       <!--signature-->
     </div>
     <!--right side of main frame-->
-    <div class="right side">
+    <div class="right_side">
       <!--image file-->
       <img src="https://images.pexels.com/photos/8798942/pexels-photo-8798942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image doesn't load. Please refreash ypur browser.">
     </div>
